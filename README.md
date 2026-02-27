@@ -84,4 +84,3 @@ Simple HTML/CSS/JavaScript page that fetches weather data from the backend using
 
 ## More Screenshots
 See the [screenshots folder](screenshots/) for additional examples including error handling and multiple cities.
-```
