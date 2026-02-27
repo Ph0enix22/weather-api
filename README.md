@@ -60,3 +60,28 @@ Simple HTML/CSS/JavaScript page that fetches weather data from the backend using
 3. Flask backend calls OpenWeatherMap API
 4. Backend returns clean JSON response
 5. JavaScript displays data on the page
+
+## Screenshots
+
+### Project Structure
+![Project Structure](screenshots/project_structure.png)
+
+### Health Check Endpoint
+![Health Check](screenshots/health_check.png)
+
+### Weather Endpoint
+![Weather](screenshots/rest-weather.png)
+
+### Postman Tests
+![Test Health](screenshots/test_health.png)
+![Test Success](screenshots/test_success.png)
+
+### GraphQL Playground
+![GraphQL](screenshots/graphql_playground.png)
+
+### Frontend
+![Frontend Bangalore](screenshots/Bengaluru.png)
+
+## More Screenshots
+See the [screenshots folder](screenshots/) for additional examples including error handling and multiple cities.
+```
