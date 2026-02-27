@@ -8,18 +8,27 @@ This project fetches live weather data from OpenWeatherMap and exposes it throug
 ## REST Endpoints
 
 ### Health Check
+```
 GET /health
-Response: { "status": "OK" }
+```
+Response: 
+```json
+{ "status": "OK" }
+```
 
 ### Get Weather
+```
 GET /weather?city=CityName
+```
 Response:
+```json
 {
   "city": "London",
   "temperature": 11.5,
   "humidity": 80,
   "condition": "overcast clouds"
 }
+```
 
 ## Error Responses
 - 400 — Missing city parameter
@@ -27,9 +36,12 @@ Response:
 - 502 — External API failure
 
 ## GraphQL Endpoint
+```
 POST /graphql
+```
 
 Example query:
+```graphql
 query {
   weather(city: "London") {
     temperature
@@ -37,6 +49,7 @@ query {
     condition
   }
 }
+```
 
 ## Frontend
 Simple HTML/CSS/JavaScript page that fetches weather data from the backend using the Fetch API.
